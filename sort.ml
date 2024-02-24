@@ -41,3 +41,5 @@ let rec tree2list t =
 let tri w =
     tree2list (list2tree w)
 ;;
+
+tri [17;5;1;45;2;1;3;24];;
